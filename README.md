@@ -1,9 +1,12 @@
  ClauseWise: Your AI Legal Assistant
 ClauseWise is a sophisticated full-stack web application designed to bridge the gap between complex legal jargon and everyday understanding. By simply uploading a PDF document, users can leverage the analytical power of Large Language Models (LLMs) to automatically identify, extract, and receive plain-language explanations of the most critical clauses.
 
-![ClauseWise Application Architecture](./assests/architecture-diagram.png)
+![ClauseWise Application Architecture](./assets/architecture-diagram.png)
 
 This project serves as a powerful demonstration of integrating modern AI services into a practical, user-centric tool, making legal information more transparent and accessible to all.
+
+FEW SCREENSHOTS OF WEBSITE--
+
 
 Core Features
 1.Effortless Document Upload: A clean, intuitive drag-and-drop interface for seamless PDF file uploads.
@@ -16,26 +19,26 @@ Core Features
 
 5.Modern & Responsive UI: A beautifully designed interface built with React and Tailwind CSS, ensuring a flawless user experience on desktop and mobile devices.
 
- Technology Stack
+6.Technology Stack
 This project is built with a modern, robust, and scalable technology stack, chosen for performance and developer experience.
 
 Frontend
-React: The core of our user interface, enabling the creation of dynamic, stateful components.
+1.React: The core of our user interface, enabling the creation of dynamic, stateful components.
 
-Parcel: A blazingly fast, zero-configuration web application bundler that simplifies the development workflow.
+2.Parcel: A blazingly fast, zero-configuration web application bundler that simplifies the development workflow.
 
-Tailwind CSS: A utility-first CSS framework that allows for rapid, custom UI design without leaving the HTML.
+3.Tailwind CSS: A utility-first CSS framework that allows for rapid, custom UI design without leaving the HTML.
 
 Backend
-Node.js: A JavaScript runtime environment that allows us to run JavaScript on the server, enabling a unified language across the stack.
+1.Node.js: A JavaScript runtime environment that allows us to run JavaScript on the server, enabling a unified language across the stack.
 
-Express.js: A minimal and flexible Node.js framework that provides a robust set of features for building our backend API.
+2.Express.js: A minimal and flexible Node.js framework that provides a robust set of features for building our backend API.
 
-PDF-Parse: A powerful Node.js library used to extract raw text content from PDF files on the server.
+3.PDF-Parse: A powerful Node.js library used to extract raw text content from PDF files on the server.
 
-Multer: A Node.js middleware for handling multipart/form-data, used for processing file uploads.
+4.Multer: A Node.js middleware for handling multipart/form-data, used for processing file uploads.
 
-AI & API
+AI & API---
 Google Gemini API / OpenAI API: The AI engine that performs the core text analysis. The backend is architected to be compatible with either service.
 
  How It Works
